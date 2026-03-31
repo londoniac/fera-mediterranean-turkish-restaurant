@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fera Mediterranean Turkish Restaurant — East Grinstead</title>
+  <meta name="description" content="Fera Mediterranean Turkish Restaurant — authentic Mediterranean and Turkish cuisine in East Grinstead. Fresh ingredients, bold flavours.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: '#F5F0E8',
+            terra: '#C4623A',
+            'terra-dark': '#A8502E',
+            'terra-light': '#D4836A',
+            warm: '#FDF8F3',
+          },
+          fontFamily: {
+            display: ['Playfair Display', 'serif'],
+            body: ['DM Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-body text-gray-800">
+
+  <!-- Demo Banner -->
+  <div class="bg-terra text-white text-center py-2 px-4 text-sm font-medium">
+    ✨ Free demo site built for Fera Mediterranean Turkish Restaurant — reply to our email to claim it
+  </div>
+
+  <!-- Nav -->
+  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-display text-xl font-bold text-gray-900">Fera <span class="text-terra">Restaurant</span></a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#about" class="text-sm font-medium text-gray-600 hover:text-terra transition">About</a>
+        <a href="#menu" class="text-sm font-medium text-gray-600 hover:text-terra transition">Menu</a>
+        <a href="#contact" class="text-sm font-medium text-gray-600 hover:text-terra transition">Visit Us</a>
+        <a href="tel:01342645550" class="bg-terra text-white text-sm font-semibold px-5 py-2 rounded-lg hover:bg-terra-dark transition">Call Us</a>
+      </div>
+      <a href="tel:01342645550" class="md:hidden bg-terra text-white text-sm font-semibold px-4 py-2 rounded-lg">Call</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-cream">
+    <div class="max-w-6xl mx-auto px-6 py-20 md:py-28 text-center">
+      <h1 class="font-display text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">Authentic Mediterranean<br>& Turkish cuisine.</h1>
+      <p class="text-lg md:text-xl text-gray-600 max-w-xl mx-auto mb-8">Fresh ingredients, bold flavours, and the warmth of Turkish hospitality — right here on London Road in East Grinstead.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:01342645550" class="bg-terra text-white font-semibold px-8 py-3 rounded-lg text-lg hover:bg-terra-dark transition shadow-lg shadow-terra/20">Call Us: 01342 645550</a>
+        <a href="#contact" class="border-2 border-terra text-terra font-semibold px-8 py-3 rounded-lg text-lg hover:bg-terra hover:text-white transition">Find Us</a>
+      </div>
+      <div class="mt-8 flex items-center justify-center gap-2">
+        <div class="flex text-terra text-lg">★★★★★</div>
+        <span class="text-sm text-gray-500">4.8 stars from 23 reviews on Google</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-16 md:py-20">
+      <div class="max-w-2xl mx-auto text-center">
+        <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-6">A taste of the Mediterranean in East Grinstead.</h2>
+        <p class="text-gray-600 text-lg leading-relaxed mb-4">At Fera, we bring the rich traditions of Mediterranean and Turkish cooking to your table. Every dish is prepared with care using fresh, quality ingredients — from chargrilled kebabs and mezze platters to fragrant rice dishes and homemade bread.</p>
+        <p class="text-gray-600 text-lg leading-relaxed">Whether you're joining us for a relaxed dinner, a family celebration, or a quick lunch, you'll find generous portions, genuine flavours, and a warm welcome every time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu" class="bg-warm">
+    <div class="max-w-6xl mx-auto px-6 py-16 md:py-20">
+      <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-10 text-center">From our kitchen</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-50">
+          <h3 class="font-display text-lg font-bold mb-2">Mezze Platter</h3>
+          <p class="text-gray-500 text-sm">A generous selection of hummus, baba ganoush, stuffed vine leaves, falafel, and warm flatbread.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-50">
+          <h3 class="font-display text-lg font-bold mb-2">Chargrilled Kebabs</h3>
+          <p class="text-gray-500 text-sm">Tender lamb, chicken, or mixed grill kebabs, cooked over charcoal and served with rice and salad.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-50">
+          <h3 class="font-display text-lg font-bold mb-2">Pide &amp; Lahmacun</h3>
+          <p class="text-gray-500 text-sm">Traditional Turkish flatbreads baked to order with your choice of toppings — meat, cheese, or vegetable.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-50">
+          <h3 class="font-display text-lg font-bold mb-2">Fresh Fish</h3>
+          <p class="text-gray-500 text-sm">Sea bass or sea bream, grilled whole and served with Mediterranean vegetables and lemon butter.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-50">
+          <h3 class="font-display text-lg font-bold mb-2">Vegetarian Specials</h3>
+          <p class="text-gray-500 text-sm">Stuffed aubergine, spinach börek, and falafel wraps — packed with flavour, no meat needed.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-50">
+          <h3 class="font-display text-lg font-bold mb-2">Turkish Desserts</h3>
+          <p class="text-gray-500 text-sm">Baklava, künefe, and Turkish tea to round off your meal — sweet, flaky, and utterly indulgent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-16 md:py-20">
+      <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-10 text-center">Visit us</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div>
+          <div class="space-y-6">
+            <div>
+              <h3 class="font-semibold text-gray-900 mb-1">Address</h3>
+              <p class="text-gray-600">102 London Road<br>East Grinstead<br>RH19 1EP</p>
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-900 mb-1">Phone</h3>
+              <a href="tel:01342645550" class="text-terra font-medium hover:underline">01342 645550</a>
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-900 mb-1">Rating</h3>
+              <p class="text-gray-600">★★★★★ 4.8 stars (23 Google reviews)</p>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-xl overflow-hidden shadow-sm border border-gray-100 min-h-[300px]">
+          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDaAyddAauvuuovol37fZq06a6yc0OEp6w&q=Fera+Mediterranean+Turkish+Restaurant,102+London+Rd,East+Grinstead+RH19+1EP" width="100%" height="100%" style="border:0; min-height:300px;" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-10">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p class="font-display text-lg font-bold mb-2">Fera <span class="text-terra-light">Restaurant</span></p>
+      <p class="text-gray-400 text-sm">Want this website live on your own domain? Reply to the email we sent you.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
